@@ -1,10 +1,21 @@
-name: "oselcuk"
-description: "under construction"
+# Dependencies
+markdown            : redcarpet
+highlighter         : pygments
 
-url: "oselcuk.github.io"
+# Permalinks
+permalink           : pretty
+relative_permalinks : true
 
-paginate: 10
+# Setup
+title       : Oguzhan Selcuk
+tagline     : ''
+description : 'Under Construction'
+url         : oselcuk.com
+baseurl     : ''
 
-markdown: rdiscount
-permalink: pretty
-pygments: true
+author:
+name                : 'Oguzhan Selcuk'
+url                 : oselcuk.com
+
+paginate            : 5
+paginate_path       : "blog/page:num"
